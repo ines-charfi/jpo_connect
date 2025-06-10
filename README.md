@@ -11,6 +11,7 @@ Cette plateforme permet aux futurs étudiants et à leurs parents de s’inscrir
 ## 🗂️ Structure des dossiers
 
 laplateforme-jpo/
+
 ├── backend/ # Backend PHP natif (API REST)
 │ ├── api/ # Points d'entrée API (endpoints)
 │ │ ├── auth.php # Authentification (login)
