@@ -1,4 +1,4 @@
-<img width="233" alt="image" src="https://github.com/user-attachments/assets/39e7d4cd-5353-49a1-95ba-14c2f18fd0dd" /># 📚 Documentation du Projet - Plateforme de Gestion des Journées Portes Ouvertes (JPO)
+# 📚 Documentation du Projet - Plateforme de Gestion des Journées Portes Ouvertes (JPO)
 
 ---
 
