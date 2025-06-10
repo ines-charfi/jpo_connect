@@ -1,4 +1,4 @@
-# 📚 Documentation du Projet - Plateforme de Gestion des Journées Portes Ouvertes (JPO)
+<img width="233" alt="image" src="https://github.com/user-attachments/assets/39e7d4cd-5353-49a1-95ba-14c2f18fd0dd" /># 📚 Documentation du Projet - Plateforme de Gestion des Journées Portes Ouvertes (JPO)
 
 ---
 
@@ -14,16 +14,16 @@ laplateforme-jpo/
 
 ├── backend/ # Backend PHP natif (API REST)
 │ ├── api/ # Points d'entrée API (endpoints)
-│ │ ├── auth.php # Authentification (login)
-│ │ ├── register.php # Inscription utilisateur
-│ │ ├── jpo.php # Gestion des JPO (liste, détail)
-│ │ ├── user_events.php # Gestion des inscriptions/désinscriptions
-│ │ ├── admin.php # API pour dashboard admin/modération
-│ │ └── ... # Autres endpoints API
+│ │ 
+│ │ 
+│ │
+│ |
+│ │ 
+│ 
 │ ├── includes/ # Fonctions utilitaires et constantes
-│ │ ├── roles.php # Gestion des rôles et permissions
-│ │ ├── mail.php # Fonction d’envoi d’emails (PHPMailer)
-│ │ └── ...
+│ │ 
+│ │ 
+│ │
 │ ├── config.php # Configuration de la base de données et autres
 │ ├── db.php # Connexion PDO à la base de données
 │ └── schema.sql # Script SQL de création de la base de données
@@ -32,25 +32,25 @@ laplateforme-jpo/
 │ ├── public/ # Fichiers statiques (index.html, favicon, etc.)
 │ ├── src/
 │ │ ├── components/ # Composants réutilisables React
-│ │ │ ├── Header.jsx # Barre de navigation
-│ │ │ ├── Footer.jsx # Pied de page
-│ │ │ ├── Login.jsx # Formulaire de connexion
-│ │ │ ├── Register.jsx # Formulaire d’inscription
-│ │ │ ├── JPOList.jsx # Liste des JPO
-│ │ │ ├── JPOItem.jsx # Détail d’une JPO avec inscription
-│ │ │ ├── UserEvents.jsx # Liste des inscriptions de l’utilisateur
-│ │ │ ├── AdminDashboard.jsx # Dashboard admin/modération
-│ │ │ ├── ProtectedRoute.jsx # Gestion des routes sécurisées
-│ │ │ └── ...
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │
 │ │ ├── pages/ # Pages React (assemblage de composants)
-│ │ │ ├── HomePage.jsx # Page d’accueil
-│ │ │ ├── LoginPage.jsx # Page de connexion
-│ │ │ ├── RegisterPage.jsx# Page d’inscription
-│ │ │ ├── EventsPage.jsx # Page liste des événements
-│ │ │ ├── UserEventsPage.jsx # Page des inscriptions utilisateur
-│ │ │ ├── ProfilePage.jsx # Profil utilisateur
-│ │ │ ├── AdminPage.jsx # Page dashboard admin
-│ │ │ └── ...
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
+│ │ │ 
 │ │ ├── App.jsx # Composant principal avec routage
 │ │ ├── App.css # Styles globaux
 │ │ └── index.js # Point d’entrée React
