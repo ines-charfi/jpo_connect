@@ -14,48 +14,20 @@ laplateforme-jpo/
 
 ├── backend/ # Backend PHP natif (API REST)
 │ ├── api/ # Points d'entrée API (endpoints)
-│ │ 
-│ │ 
-│ │
-│ |
-│ │ 
-│ 
 │ ├── includes/ # Fonctions utilitaires et constantes
-│ │ 
-│ │ 
-│ │
 │ ├── config.php # Configuration de la base de données et autres
 │ ├── db.php # Connexion PDO à la base de données
-│ └── schema.sql # Script SQL de création de la base de données
+│ └── schema.sql # Script SQL de création de la base de donnée
 │
 ├── frontend/ # Frontend ReactJS
 │ ├── public/ # Fichiers statiques (index.html, favicon, etc.)
 │ ├── src/
 │ │ ├── components/ # Composants réutilisables React
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │
 │ │ ├── pages/ # Pages React (assemblage de composants)
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
-│ │ │ 
 │ │ ├── App.jsx # Composant principal avec routage
 │ │ ├── App.css # Styles globaux
 │ │ └── index.js # Point d’entrée React
 │ ├── package.json # Dépendances frontend
-│ └── ...
 │
 └── README.md # Cette documentation
 
